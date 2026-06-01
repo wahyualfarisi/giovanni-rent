@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import VehicleCard from "@/components/VehicleCard";
 import SectionHeader from "@/components/SectionHeader";
-import { Info, HelpCircle } from "lucide-react";
+import { Info } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Sewa Motor Dieng Wonosobo Murah | Giovanni Rent",

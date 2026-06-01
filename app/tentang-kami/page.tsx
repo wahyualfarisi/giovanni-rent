@@ -37,10 +37,10 @@ export default function TentangKami() {
                   <Star key={i} className="w-5 h-5 text-yellow-500 fill-yellow-500" />
                 ))}
               </div>
-              <p className="font-bold text-text-primary text-lg">"Pelayanan ramah, motor terawat. Recommended!"</p>
+              <p className="font-bold text-text-primary text-lg">&quot;Pelayanan ramah, motor terawat. Recommended!&quot;</p>
             </div>
           </div>
-          
+
           <div className="lg:w-1/2">
             <h2 className="font-heading text-3xl font-bold text-text-primary mb-6">Cerita Kami</h2>
             <div className="prose prose-lg prose-stone text-text-muted">

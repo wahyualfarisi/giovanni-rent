@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import SectionHeader from "@/components/SectionHeader";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { MapPin, Phone, Clock } from "lucide-react";
 import InstagramIcon from "@/components/InstagramIcon";
 
 export const metadata: Metadata = {
@@ -23,17 +23,17 @@ export default function Kontak() {
           {/* Info Kontak */}
           <div className="lg:w-2/5 bg-navy-border p-10 md:p-12 text-bg-light flex flex-col justify-between relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-burnt-orange rounded-full filter blur-[100px] opacity-20 translate-x-1/2 -translate-y-1/2"></div>
-            
+
             <div className="relative z-10">
               <h2 className="font-heading text-3xl font-bold text-white mb-8">Informasi Kontak</h2>
-              
+
               <ul className="space-y-8">
                 <li className="flex items-start">
                   <MapPin className="w-6 h-6 text-burnt-orange mr-4 shrink-0" />
                   <div>
                     <h4 className="font-bold text-white mb-1">Alamat Garasi</h4>
                     <p className="text-bg-light leading-relaxed">
-                      Jl. Mayjen Bambang Sugeng No. KM.03, Bumireso, Wonosobo, Jawa Tengah 56351<br/>
+                      Jl. Mayjen Bambang Sugeng No. KM.03, Bumireso, Wonosobo, Jawa Tengah 56351<br />
                       <span className="text-burnt-orange text-sm">(±30m sebelah barat Terminal Mendolo)</span>
                     </p>
                   </div>
@@ -73,7 +73,7 @@ export default function Kontak() {
           <div className="lg:w-3/5 p-10 md:p-12">
             <h2 className="font-heading text-3xl font-bold text-text-primary mb-6">Kirim Pesan Langsung</h2>
             <p className="text-text-muted mb-8">Pilih template pesan di bawah ini, kami akan langsung merespon via WhatsApp Anda.</p>
-            
+
             <div className="space-y-4">
               <a
                 href="https://wa.me/6281291321554?text=Halo%20Admin%20Giovanni%20Rent,%20saya%20ingin%20tanya%20ketersediaan%20MOTOR%20untuk%20tanggal..."

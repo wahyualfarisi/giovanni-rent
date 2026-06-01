@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
-import { Clock, Wrench, MapPin, MessageSquare, ShieldCheck, Map, ArrowRight, Star, Phone } from "lucide-react";
+import { Clock, Wrench, MapPin, MessageSquare, Map, ArrowRight, Star, Phone } from "lucide-react";
 import VehicleCard from "@/components/VehicleCard";
 import TestimonialCard from "@/components/TestimonialCard";
 import SectionHeader from "@/components/SectionHeader";
@@ -356,7 +356,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-burnt-orange font-semibold hover:text-deep-rust transition-colors border-b border-burnt-orange/40 hover:border-deep-rust pb-0.5"
             >
-              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" /></svg>
               Lihat semua ulasan di Google Maps →
             </a>
             <p className="text-xs text-text-muted mt-2">Punya pengalaman sewa di Giovanni Rent? Tinggalkan review Anda!</p>

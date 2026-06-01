@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import SectionHeader from "@/components/SectionHeader";
-import { Map, Clock, AlertTriangle, Mountain } from "lucide-react";
+import { Clock, AlertTriangle, Mountain } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Wisata Dieng Naik Motor | Panduan Lengkap + Rental Motor",
@@ -26,7 +26,7 @@ export default function WisataDieng() {
         <div className="mb-12 text-center max-w-3xl mx-auto">
           <h1 className="font-heading text-4xl md:text-5xl font-bold text-text-primary mb-4">Panduan Jelajah Wisata Dieng</h1>
           <p className="text-text-muted text-lg">
-            Temukan pesona "Negeri di Atas Awan". Semua yang perlu Anda ketahui untuk liburan tak terlupakan di Dieng Plateau.
+            Temukan pesona &quot;Negeri di Atas Awan&quot;. Semua yang perlu Anda ketahui untuk liburan tak terlupakan di Dieng Plateau.
           </p>
         </div>
 
